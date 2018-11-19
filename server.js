@@ -6,7 +6,7 @@ const app = express();
 app.use(express.static('./dist/sudoku-client-angular7'));
 
 app.get('/*', (req,res) => {
-    res.sendFile(join(__dirname,'/dist/sudoku-client-angular7/index.html'));
+    res.sendFile(path.join(__dirname,'/dist/sudoku-client-angular7/index.html'));
 });
 
 app.listen(process.env.PORT || 8080, () => {
