@@ -1,0 +1,60 @@
+.sudoku-panel {
+    padding: 30px;
+    width: 426px;
+    height: 426px;
+}
+
+.col1-3 {
+    width: 426px;
+    height: 142px;
+}
+
+.col4-6 {
+    width: 426px;
+    height: 142px;
+}
+
+.col7-9 {
+    width: 426px;
+    height: 142px;
+}
+
+.table3x3 {
+    width: 142px;
+    height: 142px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    background-color: #f5f5f5;
+ }
+
+.newGameButton {
+     width: 100px !important;
+     height: 100px !important;
+ }
+
+.generatedCell {
+    font-weight: bold;
+}
+
+.notGeneratedCell:hover{
+    background-color: #ffff99;
+}
+
+td {
+    width: 47px;
+    height: 47px;
+    cursor: pointer;
+}
+
+[mat-dialog-draggable-title] {
+    margin: -24px -24px 0px -24px !important;
+    padding: 10px 24px;
+    background: #369;
+    color: #fff;
+    cursor: move;
+}
+  

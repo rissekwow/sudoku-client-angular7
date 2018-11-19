@@ -1,0 +1,27 @@
+<h1 mat-dialog-title mat-dialog-draggable-title>Put value to cell</h1>
+<br /><br />
+<div align="center" mat-dialog-content>
+  <table class="enterValueDialog">
+    <table class="table3x3">
+      <tbody>
+        <tr>
+          <td class="notGeneratedCell" (click)="enterValueToCellEvent(1)">1</td>
+          <td class="notGeneratedCell" (click)="enterValueToCellEvent(2)">2</td>
+          <td class="notGeneratedCell" (click)="enterValueToCellEvent(3)">3</td>
+        </tr>
+        <tr>
+          <td class="notGeneratedCell" (click)="enterValueToCellEvent(4)">4</td>
+          <td class="notGeneratedCell" (click)="enterValueToCellEvent(5)">5</td>
+          <td class="notGeneratedCell" (click)="enterValueToCellEvent(6)">6</td>
+        </tr>
+        <tr>
+          <td class="notGeneratedCell" (click)="enterValueToCellEvent(7)">7</td>
+          <td class="notGeneratedCell" (click)="enterValueToCellEvent(8)">8</td>
+          <td class="notGeneratedCell" (click)="enterValueToCellEvent(9)">9</td>
+        </tr>
+      </tbody>
+    </table>
+  </table>
+  <br />
+  <button type="submit" class="btn btn-secondary" (click)="enterValueToCellEvent(null)" [hidden]="isCellEmpty">Clear</button>
+</div>
